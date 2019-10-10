@@ -46,11 +46,23 @@
 
 }
 
+.form__button 
+{
+	text-align: center;
+	margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
 #test input[type="submit"]
 {
+	width: 300px;
+	text-align: center;
+	margin: 0 auto;
 	border:1px solid #000;
 	border-radius: 3px;
 	background-color: #2C78F6;
 	text-transform: uppercase;
 	color: #fff;
+	cursor: pointer;
 }
